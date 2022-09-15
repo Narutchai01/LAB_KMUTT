@@ -1,3 +1,7 @@
-a = '''hello'''
+price = int(input("enter your price"))
 
-print(a)
+enogh = int(input("enter your enogh"))
+
+total = enogh * price
+
+print(total)
