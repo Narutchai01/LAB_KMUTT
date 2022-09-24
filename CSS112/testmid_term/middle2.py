@@ -1,7 +1,7 @@
-print("Convert Centimeter into Inch")
-print("Convert Kilogram into Pound")
-print("Convert Celcius into Fareheit")
-print("Convert Litre into US  Gallon")
+# print("Convert Centimeter into Inch")
+# print("Convert Kilogram into Pound")
+# print("Convert Celcius into Fareheit")
+# print("Convert Litre into US  Gallon")
 
 
 def Celcius(c):  # แปลงค่าอุณหภูมิ
@@ -24,6 +24,10 @@ def Litre_to_USGallon_function(litre): #แปลง litre
 
 
 while True:
+        print("Convert Centimeter into Inch")
+        print("Convert Kilogram into Pound")
+        print("Convert Celcius into Fareheit")
+        print("Convert Litre into US  Gallon")
         choise = int(input("enter choice(1/2/3/4) : "))
 
         if choise > 0 and choise < 5:

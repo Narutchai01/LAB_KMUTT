@@ -1,2 +1,5 @@
-x = 7*2.2
-print(f"{x:.2f}")
+s ={}
+for i in range(6):
+    s[i] = i*i
+
+print(s)

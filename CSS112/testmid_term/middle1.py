@@ -2,7 +2,7 @@ dog_age = int(input("enter age your do :"))
 
 human_age = 0
 
-if dog_age <= 2:
+if dog_age < 2:
     human_age = 11
     age = dog_age*human_age
     print(f"age your doge comprea human : {age}")
