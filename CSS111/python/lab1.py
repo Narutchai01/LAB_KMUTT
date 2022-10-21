@@ -1,23 +1,23 @@
-a=input()
-b=input()
-c=input()
+textsomeone=input()
+word1=input()
+word2=input()
 
-def myreplace(a,b,c): 
-    a = a.split(" ")
+def func(textsomeone,word1,word2): 
+    textsomeone = textsomeone.split(" ")
     n = 0
-    for i in range(len(a)): 
+    for i in range(len(textsomeone)): 
         
-        if a[i] == b:
-            a[i] = c
+        if textsomeone[i] == word1:
+            textsomeone[i] = word2
             n+=1
-        if b in a[i]:
-            q = a[i].find(b) 
-            a[i] = a[i][:q] + c + a[i][q+len(b):]
+        if word1 in textsomeone[i]:
+            q = textsomeone[i].find(word1) 
+            textsomeone[i] = textsomeone[i][:q] + word2 + textsomeone[i][q+len(word1):]
             n+=1
             
-    print(" ".join(a))
+    print(" ".join(textsomeone))
     print(n)     
     
     
     
-myreplace(a,b,c)
+func(textsomeone,word1,word2)
