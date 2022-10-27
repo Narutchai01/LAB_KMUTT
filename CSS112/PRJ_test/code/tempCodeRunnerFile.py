@@ -1,0 +1,1 @@
+[li[x]+10000 if li[x] > -0.5 and li[x] < 0.5 else li[x] for x in range(len(li))]
